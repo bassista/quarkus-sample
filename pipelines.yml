@@ -4,6 +4,7 @@
     configuration:
       interval: '*/5 * * * *' 
  pipelines:
+  - name: pipeline_scheduled_triggers 
   - steps:
     - name: step_1
       type: Bash
