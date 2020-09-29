@@ -1,0 +1,14 @@
+  - name: my_Git_Repository
+    type: GitRepo
+    configuration:
+      gitProvider: GitHubInt
+      path: ~bassista/quarkus-sample
+      branches:
+        include: master
+ 
+  - name: my_Docker_Image
+    type: Image
+    configuration:
+      registry: DockerHubInt
+      imageName: bassista/demo_image_jfrog
+      imageTag: latest
