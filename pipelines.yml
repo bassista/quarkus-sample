@@ -3,7 +3,7 @@
     type: CronTrigger
     configuration:
       interval: '*/5 * * * *' 
-pipelines:
+ pipelines:
   - steps:
     - name: step_1
       type: Bash
